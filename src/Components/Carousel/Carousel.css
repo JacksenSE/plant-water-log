@@ -1,1 +1,5 @@
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+.App {
+    height:auto;
+    width:auto;
+
+}

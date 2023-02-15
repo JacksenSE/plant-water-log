@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import CarouselPage from './Components/Carousel/Carousel';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the code</h1>
+      <CarouselPage/>
     </div>
   );
 }
