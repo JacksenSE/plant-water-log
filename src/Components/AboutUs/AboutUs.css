@@ -1,0 +1,13 @@
+.aboutContainer {
+    text-align: center;
+    width: 90vw;
+}
+
+.aboutChild {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutChild div {
+    padding: 1rem;
+}
