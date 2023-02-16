@@ -9,6 +9,9 @@ require('dotenv').config()
 app.use(express.json())
 
 
+app.get('src/App.js', (req, res)=>{
+    res.render('src/App.js');
+  });
 
 //get all plants
 app.get("/api/v1/plants", (req,res) => {
