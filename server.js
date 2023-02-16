@@ -8,7 +8,11 @@ require('dotenv').config()
 //MIDDLEWARE
 app.use(express.json())
 
-app.get('/', function(req, res){
+app.get('src/App.js', (req, res)=>{
+    res.render('src/App.js');
+  });
+
+app.get('/', (req, res)=>{
     res.render('src/App.js');
   });
 
