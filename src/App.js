@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import NavbarComp from './Components/Navbar/NavbarComp';
 import CarouselPage from './Components/Carousel/Carousel';
+import styled from 'styled-components';
 
 function App() {
   return (
