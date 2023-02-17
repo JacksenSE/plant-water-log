@@ -10,8 +10,14 @@ function App() {
     <div className="App">
       <CarouselPage/>
       <NavbarComp/>
-    </div>
+      <h1 style={styles}>House-Plant Watering Log</h1>
+        </div>
   );
 }
-
+const styles = {
+  color: 'green',
+  backgroundColor: 'salmon',
+  fontSize: '40px',
+  margin: '20px'
+}
 export default App;
