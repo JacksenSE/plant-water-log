@@ -1,0 +1,14 @@
+.signUp {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #9ad175;
+    padding: 2rem;
+}
+
+.signUp h3 {
+    text-align: center;
+}
+
+.signUp a {
+    padding-right: 1em;
+}
