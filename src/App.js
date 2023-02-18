@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
-import NavbarComp from './components/Navbar/NavbarComp';
+import NavbarComp from './Components/Navbar/NavbarComp';
 import styled from 'styled-components';
-import PlantProfiles from './Components/PlantProfiles';
+import PlantProfiles from './Components/Navbar/PlantProfiles';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import CarouselPage from './Components/Carousel/Carousel';
 
