@@ -8,9 +8,9 @@ require('dotenv').config()
 //MIDDLEWARE
 app.use(express.json())
 app.use(express.static(path.join(__dirname, 'ui/build')));
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'ui/build', 'index.html'));
-// })
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'ui/build', 'index.html'));
+})
 //get all plants
 app.get("/api/v1/plants", (req,res) => {
     console.log("route ran")
