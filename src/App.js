@@ -5,9 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import NavbarComp from './Components/Navbar/NavbarComp';
 import styled from 'styled-components';
-import PlantProfiles from './Components/Navbar/PlantProfiles/PlantProfiles';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import CarouselPage from './Components/Carousel/Carousel';
+import PlantProfiles from './Components/PlantProfiles/PlantProfiles';
+
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PlantProfiles/>} />
           <Route path="/create" element={<NavbarComp />} />
-          <Route path="/:id" element={<Carousel />} />
+          <Route path="/:id" element={<CarouselPage />} />
         </Routes>
       </BrowserRouter></>
      
