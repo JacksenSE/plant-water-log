@@ -1,0 +1,17 @@
+.aboutContainer {
+    text-align: center;
+    width: 90vw;
+}
+
+.aboutChild {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutChild div {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #9ad175;
+    padding: 1rem;
+    margin: 1rem;
+}
