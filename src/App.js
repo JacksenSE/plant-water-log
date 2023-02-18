@@ -16,7 +16,6 @@ function App() {
       <NavbarComp />
       <h1 style={styles}>House-Plant Watering Log</h1>
       <CarouselPage />
-      <PlantProfiles />
     </div><BrowserRouter>
         <nav>
           <Link to="/"></Link>
