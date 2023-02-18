@@ -7,7 +7,11 @@ import anthurium from "./Anthurium.jpg";
 import palm from "./Palm.jpg";
 
 
-
+function whatever(){
+  fetch('/api/v1/plants')
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+};
 function Box({ children, ...props }) {
   return <div {...props}>{children}</div>
 }
@@ -24,8 +28,11 @@ export default function App() {
           padding={12}
           width={300}
           style={{ marginRight: '16px' }}
+        
         >
+          <button onClick={whatever}>Whatever</button>
           <Box>
+          
             <img src={pothos} style={{ width: '20%' }} />
           </Box>
           <Box>Pothos</Box>

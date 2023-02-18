@@ -1,4 +1,4 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/057c81d3-0902-407a-ad51-2671fd111388/appservices/subscriptions/057c81d3-0902-407a-ad51-2671fd111388/resourceGroups/plant-site-group2/providers/Microsoft.Web/sites/plant-site",
-    "appService.deploySubpath": "src"
+    "appService.deploySubpath": "."
 }

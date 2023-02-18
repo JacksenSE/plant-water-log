@@ -9,7 +9,7 @@ import styled from 'styled-components';
 import Carousel from "./Components/Carousel/Carousel"
 import PlantProfiles from './Components/PlantProfiles/PlantProfiles';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import CarouselPage from './Components/Carousel/Carousel';
+
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
           <Route path="/:id" element={<Carousel />} />
         </Routes>
       </BrowserRouter></>
+      
      
   );
   
