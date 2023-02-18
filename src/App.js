@@ -3,12 +3,13 @@ import './App.css';
 import AboutUs from './Components/AboutUs/AboutUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
-import NavbarComp from './Components/Navbar/NavbarComp';
+import NavbarComp from './Components/Navbar/NavbarComp'
+import LogIn from './Components/LogIn/LogIn';
+import SignUp from './Components/SignUp/SignUp';
 import styled from 'styled-components';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import CarouselPage from './Components/Carousel/Carousel';
 import PlantProfiles from './Components/PlantProfiles/PlantProfiles';
-
 
 function App() {
   return (
@@ -37,4 +38,6 @@ const styles = {
   fontSize: '40px',
   margin: '20px'
 }
+
 export default App;
+
