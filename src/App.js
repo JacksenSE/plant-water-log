@@ -9,9 +9,9 @@ import styled from 'styled-components';
 function App() {
   return (
     <div className="App">
-      <CarouselPage/>
-      <NavbarComp/>
       <h1 style={styles}>House-Plant Watering Log</h1>
+      <NavbarComp/>
+      <CarouselPage/>
         </div>
   );
 }
