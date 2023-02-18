@@ -1,5 +1,6 @@
-.App {
-    height:auto;
-    width:auto;
-
+.carousel {
+    height: 200px;
+    width: 400px;
+    margin-bottom: 155px;
+    justify-content: center;
 }

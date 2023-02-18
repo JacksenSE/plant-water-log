@@ -11,9 +11,9 @@ import CarouselPage from './Components/Carousel/Carousel';
 function App() {
   return (
     <div className="App">
-      <CarouselPage />
       <NavbarComp />
       <h1 style={styles}>House-Plant Watering Log</h1>
+      <CarouselPage />
       <PlantProfiles/>
       </div>
   );
