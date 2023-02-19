@@ -9,10 +9,10 @@ require('dotenv').config()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static(path.join(__dirname, 'ui/build')));
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'ui/build', 'index.html'));
+app.use(express.static('ui/build')) // relative path of client-side code
+app.get('*', (req, res) => {
+    res.sendFile('index.html', { root: __dirname })
 })
-
 //get all plants
 app.get("/api/v1/plants", (req,res) => {
     console.log("route ran")
