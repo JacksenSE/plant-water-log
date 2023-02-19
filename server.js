@@ -42,7 +42,6 @@ app.put("/api/v1/plants/:id",(req, res) => {
 });
 
 
-//listen for sever
-app.listen(process.env.PORT , () => { //
-    console.log(`Connected to port: ${process.env.PORT}`) //
-});
+app.listen(4005, () => {
+    console.log('Server is running on port 4005');
+})
