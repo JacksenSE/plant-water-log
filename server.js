@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const { Sequelize } = require('sequelize');
 const path = require('path');
+const PORT = 4005
 require('dotenv').config()
 
 
@@ -10,14 +11,9 @@ require('dotenv').config()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static(path.join(__dirname, 'ui/build')));
-
-function fileSending(req, res) {
-    // __dirname returns the root directory(best practice for node developers)
-    res.sendFile(__dirname + "./ui/build/index.html"); // will respond to a request made to "/" with a file.
-  }
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "./ui/build/index.html"));
-});
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'ui/build', 'index.html'));
+})
 
 //get all plants
 app.get("/api/v1/plants", (req,res) => {
@@ -46,7 +42,6 @@ app.put("/api/v1/plants/:id",(req, res) => {
     console.log(req.body);
 });
 
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
 
-app.listen(4005, () => {
-    console.log('Server is running on port 4005');
-})
+
