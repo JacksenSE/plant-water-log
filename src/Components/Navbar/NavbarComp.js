@@ -25,24 +25,24 @@ const styles = {
       
       <Nav className="me-auto">
             <div>
-                <Nav.Link href="#home"><button type="button" class="homeButton">
+                <Nav.Link href="home"><button type="button" class="homeButton">
                 <span class="glyphicon glyphicon-plus"></span>
                 Home
                 </button></Nav.Link>
             </div>
             <div>
-                <Nav.Link href="#log"><button type="button" class="wateringLog">
+                <Nav.Link href="log"><button type="button" class="wateringLog">
                 <span class="glyphicon glyphicon-plus"></span>
                 Watering Log
                 </button></Nav.Link>
             </div>
             <div>
-                <Nav.Link href="#features"><button type="button" class="aboutUs">
+                <Nav.Link href="features"><button type="button" class="aboutUs">
                 About Us
                 </button></Nav.Link>
             </div>
             <div>
-                <Nav.Link href="#login"><button type="button" class="LogIn">
+                <Nav.Link href="login"><button type="button" class="LogIn">
                 Log In/Out
                 </button></Nav.Link>
             </div>
