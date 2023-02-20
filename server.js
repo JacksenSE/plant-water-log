@@ -10,7 +10,12 @@ require('dotenv').config()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static(path.join(__dirname, 'ui/build')));
-app.get("*", (req, res) => {
+
+function fileSending(req, res) {
+    // __dirname returns the root directory(best practice for node developers)
+    res.sendFile(__dirname + "./ui/build/index.html"); // will respond to a request made to "/" with a file.
+  }
+app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "./ui/build/index.html"));
 });
 
