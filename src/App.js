@@ -17,8 +17,6 @@ function App() {
     </div>
         <Routes>
           <Route path="features" element={<AboutUs/>} />
-          <Route path="login" element={<LogIn />} />
-          <Route path="login/signup" element={<SignUp/>} />
           <Route path="home" element={<PlantProfiles/>} />
         </Routes>
   </>
