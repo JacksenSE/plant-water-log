@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import NavbarComp from './Components/Navbar/NavbarComp'
 import styled from 'styled-components';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import CarouselPage from './Components/Carousel/Carousel';
 import PlantProfiles from './Components/PlantProfiles/PlantProfiles';
 
@@ -13,18 +13,15 @@ function App() {
     <><div className="App">
       <NavbarComp />
       <h1 style={styles}>House-Plant Watering Log</h1>
-      <CarouselPage />
-    </div><BrowserRouter>
-        <nav>
-          <Link to="/"></Link>
-          <Link to="/create"></Link>
-        </nav>
+      <CarouselPage/>
+    </div>
         <Routes>
-          <Route path="/" element={<PlantProfiles/>} />
-          <Route path="/create" element={<NavbarComp />} />
-          <Route path="/:id" element={<CarouselPage />} />
+          <Route path="features" element={<AboutUs/>} />
+          <Route path="login" element={<LogIn />} />
+          <Route path="login/signup" element={<SignUp/>} />
+          <Route path="home" element={<PlantProfiles/>} />
         </Routes>
-      </BrowserRouter></>
+  </>
      
   );
   
