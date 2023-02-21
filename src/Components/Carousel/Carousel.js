@@ -5,7 +5,7 @@ import './Carousel.css';
 
 const CarouselPage = () => {
     return (
-        <Carousel>
+        <Carousel className="carousel">
     <div>
         <img src="https://placehold.co/100x100" />
         <p className="plant">Plant 1</p>
