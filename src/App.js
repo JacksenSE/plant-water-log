@@ -7,6 +7,8 @@ import styled from 'styled-components';
 import { Routes, Route, Link } from "react-router-dom";
 import CarouselPage from './Components/Carousel/Carousel';
 import PlantProfiles from './Components/PlantProfiles/PlantProfiles';
+import CRUD from './Components/CRUD/CRUD';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
     </div>
         <Routes>
           <Route path="home" element={<PlantProfiles/>} />
+          <Route path="log" element={<CRUD/>} />
         </Routes>
   </>
       
