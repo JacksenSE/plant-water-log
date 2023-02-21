@@ -16,7 +16,6 @@ function App() {
       <CarouselPage/>
     </div>
         <Routes>
-          <Route path="features" element={<AboutUs/>} />
           <Route path="home" element={<PlantProfiles/>} />
         </Routes>
   </>
