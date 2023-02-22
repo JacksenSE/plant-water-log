@@ -1,27 +1,61 @@
-.App {
-  height: auto;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: whitesmoke; 
-
-}
 
 body {
-  margin: 0;
-  padding: 0;
+  height: 125vh;
+  background-image: url('https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80v');
+  background-size: cover;
+}
+nav {
+  background: var(--primary);
+  padding: 10px 20px;
+  text-align: center;
+}
+nav a {
+  color: #f2f2f2;
+  margin: 10px;
+  display: inline-block;
+}
+nav h1 {
+  color: #fff;
+}
+.comp {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.comp {
+  color:orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Plant grid */
+.Plants-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 }
+.Plants-card {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+}
+.Plant-card .Sunlight {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: wheat;
+  color: #fff;
+  border-radius: 6px;
+  width: 40px;
+  height: 0;
+  padding: 20px 0;
+  line-height: 0px;
+  text-align: center;
+}
+.Plants-card .edit {
+ 
+  padding: 10px;
 
-
-
+}
