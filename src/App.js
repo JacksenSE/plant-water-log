@@ -8,7 +8,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import CarouselPage from './Components/Carousel/Carousel';
 import CRUD from './Components/CRUD/CRUD';
 import Home from './Components/Home/Home';
-
+import LogIn from './Components/LogIn/Login';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Routes>
           <Route path="home" element={<Home/>} />
           <Route path="log" element={<CRUD/>} />
+          <Route path='login' element={<LogIn/>} />
         </Routes>
   </>
       

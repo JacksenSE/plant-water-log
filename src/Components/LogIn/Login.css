@@ -1,0 +1,38 @@
+.logInBody {
+    background-color: #fbfbd0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logIn {
+    background-color: #8cd98c;
+    border: 5px solid #bf8040;
+    border-radius: 20px;
+    margin: auto;
+    width: 450px;
+    height: 350px;
+}
+
+.logIn h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.logIn form {
+    text-align: left;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.logIn input {
+    width: 100%;
+}
+
+.logIn button {
+    margin-top: 20px;
+}
+
+.logInLinks {
+    text-align: right;
+    padding: 10px;
+}
