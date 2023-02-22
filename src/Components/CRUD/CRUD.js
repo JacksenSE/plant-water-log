@@ -39,7 +39,7 @@ const [updateState, setUpdateState, ] = useState(-1)
                             <td>{current.suntime}</td>
                             <td>
                                 <button className='edit'onClick={() => handleEdit(current.id)}>Edit</button>
-                                <button className='delete'>Delete</button>
+                                <button className='delete' type='button' onClick={() => handleDelete(current.id)}>Delete</button>
                             </td>
                         </tr>
                     ))
@@ -52,7 +52,14 @@ const [updateState, setUpdateState, ] = useState(-1)
     
     function handleEdit(id) {
      setUpdateState(id)
+
     }
+
+    function handleDelete(id) {
+    const newlist = lists.filter((li) => li.id !== id)
+    setList(newlist)
+
+}
 
     function handleSubmit(event) {
         event.preventDefault()
