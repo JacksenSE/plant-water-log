@@ -2,6 +2,7 @@ import React from 'react';
 import './AddList.css';
 import {useRef, useState} from 'react';
 
+
 function AddList({setList}) {
     const nameRef = useRef()
     const suntimeRef = useRef()
