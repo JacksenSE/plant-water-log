@@ -6,8 +6,8 @@ import NavbarComp from './Components/Navbar/NavbarComp'
 import styled from 'styled-components';
 import { Routes, Route, Link } from "react-router-dom";
 import CarouselPage from './Components/Carousel/Carousel';
-import PlantProfiles from './Components/PlantProfiles/PlantProfiles';
 import CRUD from './Components/CRUD/CRUD';
+import Home from './Components/Home/Home';
 
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
     <><div className="App">
       <NavbarComp />
       <h1 style={styles}>House-Plant Watering Log</h1>
-      <CarouselPage/>
+
     </div>
         <Routes>
-          <Route path="home" element={<PlantProfiles/>} />
+          <Route path="home" element={<Home/>} />
           <Route path="log" element={<CRUD/>} />
         </Routes>
   </>
@@ -28,7 +28,7 @@ function App() {
 }
 const styles = {
   color: 'green',
-  backgroundColor: 'salmon',
+  backgroundColor: 'white',
   fontSize: '40px',
   margin: '20px'
 }

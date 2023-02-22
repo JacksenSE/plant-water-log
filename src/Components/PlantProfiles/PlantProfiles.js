@@ -8,11 +8,13 @@ import palm from "./Palm.jpg";
 
 
 
+
 function Box({ children, ...props }) {
   return <div {...props}>{children}</div>
 }
 
 export default function App() {
+  
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
