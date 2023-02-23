@@ -11,7 +11,7 @@ To add a plant, click on the 'Create New Plant' button.  From there, you can fil
 The Home page can be used for more than just viewing.  If you made a mistake or something has changed, you can click 'edit' on any of your plants and update any of the information.  Or if for whatever reason you no longer need to track a plant, you can click 'delete' and remove the plant from your Plant Log entirely.  
 
 |Contributors|
----
+|---|
 |Jaksen Marshall|
 |Diego Velasquez|
 |Skielynn Pacas|
