@@ -17,6 +17,5 @@ The Home page can be used for more than just viewing.  If you made a mistake or 
 |Skielynn Pacas|
 |James Nelson|
 
-
 ### Technologies
 HTML, CSS, JavaScript, React, React Bootstrap, React Dom, Sequelize, Supabase
