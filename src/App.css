@@ -10,27 +10,36 @@ nav {
   text-align: center;
 }
 nav a {
-  color: #597a55;
+  color: black;
+  font-family: fantasy;
   margin: 10px;
   display: inline-block;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: lemonchiffon;
+  border: 2px solid #4CAF50;
+  text-decoration: none;
 }
 nav h1 {
-  color: #fff;
+  color: black ;
+  font-weight: 100;
+  font-size: 70px;
 }
 .comp {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
-}
-.comp {
   color: #75955c;
+  font-family: fantasy;
 }
+
 
 /* Plant grid */
 .Plants-grid {
-  border: 5px solid #44708A;
+  border: 5px solid #4CAF50;
   border-radius: 20px;
-  background-color: #f7fbe1;
+  background-color: lemonchiffon;
   padding: 10px;
   margin-top: 40px;
   display: grid;
@@ -38,7 +47,7 @@ nav h1 {
   gap: 40px;
 }
 .Plants-card {
-  color: #44708A;
+  color: black;
   width: 100%;
   padding: 10px;
   background: #BAC965;
