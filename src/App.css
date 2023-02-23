@@ -28,15 +28,20 @@ nav h1 {
 
 /* Plant grid */
 .Plants-grid {
+  border: 5px solid #44708A;
+  border-radius: 20px;
+  background-color: #f7fbe1;
+  padding: 10px;
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
 .Plants-card {
+  color: #44708A;
   width: 100%;
   padding: 10px;
-  background: #fff;
+  background: #BAC965;
   box-sizing: border-box;
   border-radius: 6px;
   position: relative;
@@ -55,7 +60,20 @@ nav h1 {
   text-align: center;
 }
 .Plants-card .edit {
- 
   padding: 10px;
 
+}
+
+/* Create new plant */
+.create {
+  border: 5px solid #44708A;
+  border-radius: 20px;
+  background-color: #f7fbe1;
+  color: #44708A;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.create input {
+  margin: 10px;
 }
