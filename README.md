@@ -73,4 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 The video below was used to help create the Home component and Card component after that I followed the pattern
 
 The Net Ninja: https://www.youtube.com/watch?v=ydz7Dj5QHKY&list=PL4cUxeGkcC9hUb6sHthUEwG7r9VDPBMKO
-                https://plant-water-log-git-overhaul-jacksense.vercel.app/
+               https://plant-water-log-git-overhaul-jacksense.vercel.app/
