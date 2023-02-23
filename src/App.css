@@ -3,6 +3,8 @@ body {
   height: 125vh;
   background-image: url('https://wallpapercave.com/wp/wp6973299.jpg');
   background-size: cover;
+  background-position: center;
+
 }
 nav {
   background: var(--primary);
