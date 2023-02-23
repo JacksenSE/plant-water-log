@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <nav>
       <img src={plantLogo} height="100"/>
-      <h1>Plant Water Log</h1>
+      <h1>Plant Log</h1>
       <Link to="/">Home</Link>
       <Link to="/create">Create New Plant</Link>
     </nav>
