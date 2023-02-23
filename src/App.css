@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 
 body {
   height: 125vh;
-  background-image: url('https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80v');
+  background-image: url('https://wallpapercave.com/wp/wp6973299.jpg');
   background-size: cover;
+  background-position: center;
+
 }
 nav {
   background: var(--primary);
@@ -10,33 +13,47 @@ nav {
   text-align: center;
 }
 nav a {
-  color: #f2f2f2;
+  color: black;
+  font-family: 'Alegreya Sans SC', sans-serif;
   margin: 10px;
   display: inline-block;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: lemonchiffon;
+  border: 2px solid #4CAF50;
+  text-decoration: none;
 }
 nav h1 {
-  color: #fff;
+  color: black ;
+  font-weight: 100;
+  font-size: 70px;
 }
 .comp {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
+  color: #75955c;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
-.comp {
-  color:orange;
-}
+
 
 /* Plant grid */
 .Plants-grid {
+  border: 5px solid #4CAF50;
+  border-radius: 20px;
+  background-color: lemonchiffon;
+  padding: 10px;
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
 .Plants-card {
+  color: black;
   width: 100%;
   padding: 10px;
-  background: #fff;
+  background: #BAC965;
   box-sizing: border-box;
   border-radius: 6px;
   position: relative;
@@ -55,7 +72,20 @@ nav h1 {
   text-align: center;
 }
 .Plants-card .edit {
- 
   padding: 10px;
 
+}
+
+/* Create new plant */
+.create {
+  border: 5px solid #44708A;
+  border-radius: 20px;
+  background-color: #f7fbe1;
+  color: #44708A;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.create input {
+  margin: 10px;
 }
