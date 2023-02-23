@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 
 body {
   height: 125vh;
@@ -13,7 +14,7 @@ nav {
 }
 nav a {
   color: black;
-  font-family: fantasy;
+  font-family: 'Alegreya Sans SC', sans-serif;
   margin: 10px;
   display: inline-block;
   font-size: 20px;
@@ -33,7 +34,7 @@ nav h1 {
   margin: 20px auto;
   padding: 20px;
   color: #75955c;
-  font-family: fantasy;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 
