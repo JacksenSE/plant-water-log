@@ -18,8 +18,8 @@ const PlantCard = ({ Plants }) => {
 
     return (
       <div className="Plants-card">
-        <h3>Plant: {Plants.Type}</h3>
-        <p>Water: {Plants.Water}</p>
+        <h3 className="label">Plant: {Plants.Type}</h3>
+        <p classname='label2'>Water: {Plants.Water}</p>
         <div className="Sunlight">Sunlight: {Plants.Sunlight}</div>
         <div className="buttons">
             <Link to={'/' + Plants.id}>
