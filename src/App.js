@@ -8,7 +8,6 @@ import plantLogo from './Components/plant-logo.jpg';
 
 
 
-
 function App() {
   return (
     <BrowserRouter>
