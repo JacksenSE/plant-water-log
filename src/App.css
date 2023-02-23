@@ -89,3 +89,17 @@ nav h1 {
 .create input {
   margin: 10px;
 }
+
+/* Plant Edit */
+.update {
+  border: 5px solid #44708A;
+  border-radius: 20px;
+  background-color: #f7fbe1;
+  color: #44708A;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.update input {
+  margin: 10px;
+}
