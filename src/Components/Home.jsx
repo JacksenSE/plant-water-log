@@ -34,7 +34,6 @@ const Home = () => {
       {fetchError && (<p>{fetchError}</p>)}
       {Plants && (
         <div className="Plants">
-          {/* order-by buttons */}
           <div className="Plants-grid">
             {Plants.map(Plants => (
               <PlantCard key={Plants.id} Plants={Plants} />

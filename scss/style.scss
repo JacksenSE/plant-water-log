@@ -1,0 +1,106 @@
+$color_1: black;
+$color_2: #75955c;
+$color_3: #fff;
+$color_4: #44708A;
+$font-family_1: 'Alegreya Sans SC', sans-serif;
+$background-color_1: lemonchiffon;
+$background-color_2: #f7fbe1;
+
+@import "https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap";
+/* Plant grid */
+/* Create new plant */
+/* Plant Edit */
+body {
+	height: 125vh;
+	background-image: url('https://wallpapercave.com/wp/wp6973299.jpg');
+	background-size: cover;
+	background-position: center;
+}
+nav {
+	background: var(--primary);
+	padding: 10px 20px;
+	text-align: center;
+	a {
+		color: $color_1;
+		font-family: $font-family_1;
+		margin: 10px;
+		display: inline-block;
+		font-size: 20px;
+		padding: 8px;
+		border-radius: 10px;
+		background-color: $background-color_1;
+		border: 2px solid #4CAF50;
+		text-decoration: none;
+	}
+	h1 {
+		color: $color_1;
+		font-weight: 100;
+		font-size: 70px;
+	}
+}
+.comp {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	color: $color_2;
+	font-family: $font-family_1;
+}
+.Plants-grid {
+	border: 5px solid #4CAF50;
+	border-radius: 20px;
+	background-color: $background-color_1;
+	padding: 10px;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 40px;
+}
+.Plants-card {
+	color: $color_1;
+	width: 100%;
+	padding: 10px;
+	background: #BAC965;
+	box-sizing: border-box;
+	border-radius: 6px;
+	position: relative;
+	.edit {
+		padding: 10px;
+	}
+}
+.Plant-card {
+	.Sunlight {
+		position: absolute;
+		top: -10px;
+		right: -10px;
+		background: wheat;
+		color: $color_3;
+		border-radius: 6px;
+		width: 40px;
+		height: 0;
+		padding: 20px 0;
+		line-height: 0px;
+		text-align: center;
+	}
+}
+.create {
+	border: 5px solid #44708A;
+	border-radius: 20px;
+	background-color: $background-color_2;
+	color: $color_4;
+	padding: 20px;
+	margin-top: 40px;
+	input {
+		margin: 10px;
+	}
+}
+.update {
+	border: 5px solid #44708A;
+	border-radius: 20px;
+	background-color: $background-color_2;
+	color: $color_4;
+	padding: 20px;
+	margin-top: 40px;
+	input {
+		margin: 10px;
+	}
+}

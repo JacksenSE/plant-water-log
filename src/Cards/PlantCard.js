@@ -13,6 +13,7 @@ const PlantCard = ({ Plants }) => {
   }
     if (data){
       console.log(data)
+      onDelete()
     }
   }
 
